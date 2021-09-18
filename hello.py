@@ -12,4 +12,4 @@ def get_data():
     return {'code': 200, 'msg': 'success', 'data': datas}
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=5000)
